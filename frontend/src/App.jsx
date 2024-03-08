@@ -9,13 +9,13 @@ class MyFirstGrid extends React.Component {
       <GridLayout className="layout text-white text-3xl" cols={3} rowHeight={100} width={1260} height={720}>
       
         <div key="a" data-grid={{ x: 0, y: 0, w: 1, h: 3, static: false , autoSize: true, preventCollision: true
-}} className='bg-[#1c8a72] rounded-2xl flex items-center justify-center'>
+}} className='bg-[#861c8a] rounded-2xl flex items-center justify-center'>
           First
         </div>
         <div key="b" data-grid={{ x: 1, y: 0, w: 2, h: 3 , autoSize: true , preventCollision: true}} className='bg-[#dc3f3f] rounded-2xl flex items-center justify-center'>
           Second
         </div>
-        <div key="c" data-grid={{ x: 1, y: 1, w: 12, h: 2 , autoSize: true , preventCollision: true}} className='bg-[#3fdc83] rounded-2xl flex items-center justify-center'>
+        <div key="c" data-grid={{ x: 1, y: 1, w: 12, h: 2 , autoSize: true , preventCollision: true}} className='bg-[#1e7d47] rounded-2xl flex items-center justify-center'>
           Third
         </div>
       </GridLayout>
